@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+h1 {
+  align-items: center;
+  color: green;
+  border: 8px dashed orange;
+}
+img {
+  height: 442px;
+  width: 442px;
+  border: 8px solid orange;
+  border-radius: 10%
+}
+@media screen and (max-width:900px){
+  img {
+    width: 200px;
+  }
+}
